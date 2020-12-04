@@ -6,9 +6,9 @@
       <a href="#om-projektet">Om projektet</a>
     </li>
     <li>
-      <a href="#opsaetning">Opsætning</a>
+      <a href="#setup">Setup</a>
       <ul>
-        <li><a href="#forudsaetninger">Krav</a></li>
+        <li><a href="#krav">Krav</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -31,11 +31,10 @@ Mit intelligente hus er en masser features som jeg rigtigt gerne vil fortælle e
   - Hvis der bliver indtastet forkert kode 3 gange så trigger alarmen
 
 ### Smart lighting
- - Tænder automatisk lys ved døren ”hvis der står nogen foran keypad’en”
- - Tænder automatisk lys i hele huset hvis der bliver mørkt
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+ - Tænder automatisk lys ved døren hvis der står nogen foran keypad’en
+ - Tænder automatisk lys i hele huset hvis sensoren indikerer der er blevet mørkt
 
-## Opsætning
+## Setup
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
 ### Krav
@@ -52,3 +51,6 @@ This is an example of how you may give instructions on setting up your project l
 ### Licens
 
 ### Kontakt
+
+- Email: niel862b@elevcampus.dk
+- Telefon: nope
