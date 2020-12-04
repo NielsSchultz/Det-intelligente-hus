@@ -8,7 +8,7 @@
     <li>
       <a href="#opsaetning">Opsætning</a>
       <ul>
-        <li><a href="#forudsaetninger">Forudsætninger</a></li>
+        <li><a href="#forudsaetninger">Krav</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -38,13 +38,14 @@ There are many great README templates available on GitHub, however, I didn't fin
 ## Opsætning
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Krav
 
-Krav
+1.  ATmega 2560 Microcontroller
+2.  Membrane switch module
 
 ### Installation
 
-1. git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
+1.  git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
 
 ### Praktisk brug
 
