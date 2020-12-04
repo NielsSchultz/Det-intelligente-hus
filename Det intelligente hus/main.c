@@ -6,13 +6,16 @@
  */ 
 
 #include <avr/io.h>
-
+#include "Keypad.h"
 
 int main(void)
 {
-    /* Replace with your application code */
-    while (1) 
+    Init();
+
+    while(1)
     {
+	    ColumnScan();
+	    DisplayKey(ReadRows());
     }
 }
 
