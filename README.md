@@ -14,7 +14,7 @@
     </li>
     <li><a href="#praktisk-brug">Praktisk brug</a></li>
     <li><a href="#licens">Licens</a></li>
-    <li><a href="#kontakt">kontakt</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
   </ol>
 </details>
 
@@ -44,7 +44,10 @@ Krav
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
+1. git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
+
+### Praktisk brug
+
+### Licens
+
+### Kontakt
