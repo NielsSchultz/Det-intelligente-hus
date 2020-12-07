@@ -52,10 +52,14 @@ This is an example of how you may give instructions on setting up your project l
 1.  git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
 
 ### Praktisk brug
+
 Stil dig foran din keypad, se at lyset foran dig bliver tændt.
-Indtast din adgangskode for at komme ind i huset. Læg mærke til at den grønne pære lyser, hvis du har indtastet det korrekt.
+Indtast din adgangskode for at komme ind i huset. Læg mærke til hvilken pære der lyser
+Grøn for korrekt, gul for forkert, rød for alarm(3 forkerte forsøg)
 
 ### Licens
+
+None
 
 ### Kontakt
 
