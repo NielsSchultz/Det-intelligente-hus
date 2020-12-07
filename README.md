@@ -23,7 +23,7 @@
 <!-- Om projektet -->
 ## Om projektet
 
-[![Billede af projekt][product-screenshot]](https://example.com)
+https://github.com/NielsSchultz/Det-intelligente-hus/blob/DIHHIPO.png 
 
 Mit intelligente hus er en masser features som jeg rigtigt gerne vil fortælle en masse om i næste uge!
 
