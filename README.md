@@ -1,3 +1,5 @@
+## Det Intelligente Hus
+
 <!-- Indholdsfortegnelse -->
 <details open="open">
   <summary>Indholdsfortegnelse</summary>
@@ -6,9 +8,9 @@
       <a href="#om-projektet">Om projektet</a>
     </li>
     <li>
-      <a href="#opsaetning">Opsætning</a>
+      <a href="#setup">Setup</a>
       <ul>
-        <li><a href="#forudsaetninger">Forudsætninger</a></li>
+        <li><a href="#krav">Krav</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -20,10 +22,12 @@
 
 <!-- Om projektet -->
 ## Om projektet
+Mit intelligente hus er lavet for at kunne sikre mit hjem, samt sørge for automatisk at tænde og slukke for lysene i mit hjem.
+Det er skrevet i C og lavet i løbet af vores embedded 2 forløb
 
-[![Billede af projekt][product-screenshot]](https://example.com)
+HIPO Diagram
+![Screenshot](DIHHIPO.png)
 
-Mit intelligente hus er en masser features som jeg rigtigt gerne vil fortælle en masse om i næste uge!
 
 ### Security system
   - Dør med kode brug keypad til input 
@@ -31,23 +35,33 @@ Mit intelligente hus er en masser features som jeg rigtigt gerne vil fortælle e
   - Hvis der bliver indtastet forkert kode 3 gange så trigger alarmen
 
 ### Smart lighting
- - Tænder automatisk lys ved døren ”hvis der står nogen foran keypad’en”
- - Tænder automatisk lys i hele huset hvis der bliver mørkt
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+ - Tænder automatisk lys ved døren hvis der står nogen foran keypad’en
+ - Tænder automatisk lys i hele huset hvis sensoren indikerer der er blevet mørkt
 
-## Opsætning
+## Setup
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Krav
 
-Krav
+1.  ATmega 2560 Microcontroller
+2.  Membrane switch module
+3.  Photiresistor
 
 ### Installation
 
-1. git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
+1.  git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
 
 ### Praktisk brug
 
+Stil dig foran din keypad, se at lyset foran dig bliver tændt.
+Indtast din adgangskode for at komme ind i huset. Læg mærke til hvilken pære der lyser
+Grøn for korrekt, gul for forkert, rød for alarm(3 forkerte forsøg)
+
 ### Licens
 
+None
+
 ### Kontakt
+
+- Email: niels@fakeemail.com
+- Telefon: nope
