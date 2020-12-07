@@ -10,7 +10,7 @@
 #define PASSWORD_H_
 
 
-
-
+void PasswordChecker(char a);
+void ValidatePassword(char[] password);
 
 #endif /* PASSWORD_H_ */

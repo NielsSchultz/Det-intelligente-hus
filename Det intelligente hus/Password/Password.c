@@ -4,17 +4,34 @@
  * Created: 07-12-2020 12:40:47
  *  Author: Niels
  */ 
-#define PASSWORD_SIZE 99
-bool ValidatePassword(char a)
+#include <string.h>
+#define PASSWORD_SIZE 4
+char password[PASSWORD_SIZE];
+
+void ValidatePassword(char password[])
 {
-	volatile char password[PASSWORD_SIZE];
-	if(a != * | a != #)
+	volatile int test = 0;
+	if (password[0] == '1' && password[1] == '2' && password[2] == '3' && password[3] == '4')
 	{
-		password = strcat(password, a);
+		test = 1;
 	}
-	if (a == *)
+	else
 	{
-		password = "";
+		test = 2;
+	}
+	test = test;
+}
+
+void PasswordChecker(volatile char a)
+{
+	if(a != '#')
+	{
+		strcat(password, a);
+	}
+	else
+	{
+		ValidatePassword(password);
+		memset(password, 0, sizeof(password));
 	}
 	int test = 0;
 }

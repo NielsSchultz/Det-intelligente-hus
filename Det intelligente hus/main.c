@@ -6,9 +6,12 @@
  */ 
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include "Keypad.h"
+#include "Keypad/Keypad.h"
 
-
+void ReceiveChar(char a)
+{
+	PasswordChecker(a);
+}
 
 
 int main(void)
