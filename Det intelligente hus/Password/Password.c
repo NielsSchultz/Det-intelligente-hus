@@ -6,12 +6,16 @@
  */ 
 #include <string.h>
 #define PASSWORD_SIZE 4
-char password[PASSWORD_SIZE];
+char password[PASSWORD_SIZE]
+char myPassword[PASSWORD_SIZE]
+
+
 
 void ValidatePassword(char password[])
 {
+	strcpy(myPassword, "1234");
 	volatile int test = 0;
-	if (password[0] == '1' && password[1] == '2' && password[2] == '3' && password[3] == '4')
+	if (strncmp(password, myPassword, PASSWORD_SIZE) == 0)
 	{
 		test = 1;
 	}
