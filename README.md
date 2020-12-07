@@ -22,10 +22,12 @@
 
 <!-- Om projektet -->
 ## Om projektet
+Mit intelligente hus er lavet for at kunne sikre mit hjem, samt sørge for automatisk at tænde og slukke for lyset.
+Det er skrevet i C og lavet i løbet af vores embedded 2 forløb
 
-https://github.com/NielsSchultz/Det-intelligente-hus/blob/DIHHIPO.png 
+HIPO Diagram
+![Screenshot](DIHHIPO.png)
 
-Mit intelligente hus er en masser features som jeg rigtigt gerne vil fortælle en masse om i næste uge!
 
 ### Security system
   - Dør med kode brug keypad til input 
