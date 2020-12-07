@@ -22,7 +22,7 @@
 
 <!-- Om projektet -->
 ## Om projektet
-Mit intelligente hus er lavet for at kunne sikre mit hjem, samt sørge for automatisk at tænde og slukke for lyset.
+Mit intelligente hus er lavet for at kunne sikre mit hjem, samt sørge for automatisk at tænde og slukke for lysene i mit hjem.
 Det er skrevet i C og lavet i løbet af vores embedded 2 forløb
 
 HIPO Diagram
@@ -45,17 +45,19 @@ This is an example of how you may give instructions on setting up your project l
 
 1.  ATmega 2560 Microcontroller
 2.  Membrane switch module
-3. Photiresistor
+3.  Photiresistor
 
 ### Installation
 
 1.  git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
 
 ### Praktisk brug
+Stil dig foran din keypad, se at lyset foran dig bliver tændt.
+Indtast din adgangskode for at komme ind i huset. Læg mærke til at den grønne pære lyser, hvis du har indtastet det korrekt.
 
 ### Licens
 
 ### Kontakt
 
-- Email: niel862b@elevcampus.dk
+- Email: niels@fakeemail.com
 - Telefon: nope
