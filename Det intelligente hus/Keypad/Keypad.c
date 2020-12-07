@@ -9,7 +9,7 @@
 #include <util/delay.h>
 #include "stdio_setup.h"
 
-void Init()
+void KeyPadInit()
 {
 	DDRK = 0b00001111;		// Use PortK, upper nibble = input (rows), lower nibble = output (columns)
 	PORTK |= 0b11110000;	// Enable Pull-up on Row pins (upper nibble)

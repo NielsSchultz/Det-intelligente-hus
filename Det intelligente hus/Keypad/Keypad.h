@@ -9,7 +9,7 @@
 #ifndef KEYPAD_H_
 #define KEYPAD_H_
 
-void Init();
+void KeyPadInit();
 void ColumnScan();
 char DecodeKey(char data);
 char ReadRows();
