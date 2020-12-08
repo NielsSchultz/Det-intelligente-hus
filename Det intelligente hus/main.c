@@ -7,16 +7,23 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include "Keypad/Keypad.h"
+int returncode = 0;
 
 void ReceiveChar(char a)
 {
-	PasswordChecker(a);
+	returncode = PasswordChecker(a);
+	//SetLED(returncode);
 }
 
 
+void Init()
+{
+	KeyPadInit();
+}
+
 int main(void)
 {
-    KeyPadInit();
+    Init();
 	
     while(1)
     {

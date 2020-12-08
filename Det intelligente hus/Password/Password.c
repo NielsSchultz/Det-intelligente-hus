@@ -5,37 +5,60 @@
  *  Author: Niels
  */ 
 #include <string.h>
+#include <stdbool.h>
 #define PASSWORD_SIZE 4
-char password[PASSWORD_SIZE]
-char myPassword[PASSWORD_SIZE]
+char password[PASSWORD_SIZE];
+int index = 0;
+char myPassword[] = "1234";
+int invalidEntry = 0;
+int isValid = false;
 
-
-
-void ValidatePassword(char password[])
+bool ValidatePassword(char password[])
 {
-	strcpy(myPassword, "1234");
-	volatile int test = 0;
 	if (strncmp(password, myPassword, PASSWORD_SIZE) == 0)
 	{
-		test = 1;
+		invalidEntry = 0;
+		return true;
 	}
 	else
 	{
-		test = 2;
+		invalidEntry++;
+		return false;
 	}
-	test = test;
+	index = 0;
 }
 
-void PasswordChecker(volatile char a)
+int PasswordChecker(char a)
 {
-	if(a != '#')
+	if(a != '#' && a != '*')
 	{
-		strcat(password, a);
+		Appender(a);
 	}
-	else
+	else if(a == '*')
 	{
-		ValidatePassword(password);
 		memset(password, 0, sizeof(password));
 	}
-	int test = 0;
+	else if(a == '#')
+	{
+		if (invalidEntry >= 3)
+		{
+			return isValid;
+		}
+		else
+		{
+			isValid = ValidatePassword(password);
+			memset(password, 0, sizeof(password));
+			if (isValid)
+			{
+				invalidEntry = 0;
+				return isValid;
+			}
+		}
+	}
+}
+
+void Appender(char a)
+{
+	password[index] = a;
+	index++;
 }
