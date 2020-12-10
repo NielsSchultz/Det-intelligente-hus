@@ -51,7 +51,7 @@ HIPO Diagram
 1.  git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
 
 ### RGB LED
-![Screenshot](DIHHIPO.png)
+![Screenshot](RGB-LED.png)
 De enkelte ben modtager alle 5V gennem en 330Ω modstand, bortset fra det lange ben som er forbundet til jord.
 
 Rød:
