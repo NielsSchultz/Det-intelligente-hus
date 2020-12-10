@@ -26,8 +26,7 @@ Mit intelligente hus er lavet for at kunne sikre mit hjem, samt sørge for autom
 Det er skrevet i C og lavet i løbet af vores embedded 2 forløb
 
 HIPO Diagram
-![Screenshot](DIHHIPO.png)
-
+![Screenshot](HIPO.png)
 
 ### Security system
   - Dør med kode brug keypad til input 
@@ -69,6 +68,8 @@ Da jeg bruger Waveform Generation Mode 5 som er Fast PWM 8 bit, har jeg værdier
 Det vil sige hvis jeg sætter OC1C til 127 så vil dens duty cycle være på 50% og derfor lyse med 50% af max.
 
 ## Praktisk brug
+
+![Screenshot](flowchart.png)
 
 Stil dig foran din keypad, se at lyset foran dig bliver tændt.
 Indtast din adgangskode for at komme ind i huset. Læg mærke til hvilken pære der lyser
