@@ -42,7 +42,7 @@ void LEDInit()
 	// Compare Output Mode: Fast PWM Mode: Clear OC0A on Compare Match, set OC0A at BOTTOM, non-inverting mode (Table 16-3)
 	TCCR1A |= (1<<COM1A1) | (1<<COM1B1)| (1<<COM1C1);
 	
-	//Waveform Generation Mode: Mode 3 Fast PWM: WGM0 = 1, WGM1 = 1 (Table 16-8)
+	//Waveform Generation Mode: Mode 5 Fast PWM 8 bit: WGM0 = 1, WGM1 = 1 (Table 16-8)
 	TCCR1A |= (1<<WGM10) | (1<<WGM12);
 	
 	// Clock Select Bit: clk/64 prescaling: CS = 011 : CS01 = 1, CS00 = 1 (Table 16-9), frekv. = 980Hz
