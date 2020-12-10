@@ -25,7 +25,7 @@
 Mit intelligente hus er lavet for at kunne sikre mit hjem, samt sørge for automatisk at tænde og slukke for lysene i mit hjem.
 Det er skrevet i C og lavet i løbet af mit embedded 2 forløb.
 
-HIPO Diagram
+##### HIPO Diagram
 ![Screenshot](HIPO.png)
 
 ### Security system
