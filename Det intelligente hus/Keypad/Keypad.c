@@ -7,7 +7,6 @@
 #define F_CPU 16000000UL
 #include <avr/io.h>
 #include <util/delay.h>
-#include "stdio_setup.h"
 
 void KeyPadInit()
 {
@@ -89,7 +88,8 @@ void DisplayKey(char data)
 {
 	if (data != '.')
 	{
-		printf("%c", data);
+		ReceiveChar(data);
+		//printf("%c", data);
 		_delay_ms(400);
 	}
 }
