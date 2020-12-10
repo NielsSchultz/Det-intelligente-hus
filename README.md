@@ -52,6 +52,7 @@ HIPO Diagram
 
 ### RGB LED
 ![Screenshot](RGB-LED.png)
+
 De enkelte ben modtager alle 5V gennem en 330Ω modstand, bortset fra det lange ben som er forbundet til jord.
 
 Rød:
