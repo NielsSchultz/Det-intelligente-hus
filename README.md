@@ -23,27 +23,27 @@
 <!-- Om projektet -->
 ## Om projektet
 Mit intelligente hus er lavet for at kunne sikre mit hjem, samt sørge for automatisk at tænde og slukke for lysene i mit hjem.
-Det er skrevet i C og lavet i løbet af vores embedded 2 forløb
+Det er skrevet i C og lavet i løbet af mit embedded 2 forløb.
 
 HIPO Diagram
 ![Screenshot](HIPO.png)
 
 ### Security system
-  - Dør med kode brug keypad til input 
-  - LED til at vise alarmens status, grøn ulåst, gul låst, rød alarm!!
-  - Hvis der bliver indtastet forkert kode 3 gange så trigger alarmen
+  - Dør med kode brug keypad til input .
+  - LED til at vise alarmens status, grøn ulåst, gul låst, rød alarm!!.
+  - Hvis der bliver indtastet forkert kode 3 gange så trigger alarmen.
 
 ### Smart lighting
- - Tænder automatisk lys ved døren hvis der står nogen foran keypad’en
- - Tænder automatisk lys i hele huset hvis sensoren indikerer der er blevet mørkt
+ - Tænder automatisk lys ved døren hvis der står nogen foran keypad’en.
+ - Tænder automatisk lys i hele huset hvis sensoren indikerer der er blevet mørkt.
 
 ## Setup
 
 ### Krav
 
-1.  ATmega 2560 Microcontroller
-2.  Membrane switch module
-3.  Photoresistor
+1.  ATmega 2560 Microcontroller.
+2.  Membrane switch module.
+3.  Photoresistor.
 
 ### Installation
 
@@ -56,13 +56,13 @@ De enkelte ben modtager alle 5V gennem en 330Ω modstand, bortset fra det lange 
 
 ##### Rød:
 Port B7 sat til output som ligger på Arduino pin 13 som er forbundet med røde ben af RGB LED'en. <br>
-Output compare register 1C = OC1C
+Output compare register 1C = OC1C.
 ##### Grøn:
 Port B6 sat til output som ligger på Arduino pin 12 som er forbundet med grønne ben af RGB LED'en. <br>
-Output compare register 1B = OC1B
+Output compare register 1B = OC1B.
 ##### Blå;
 Port B5 sat til output som ligger på Arduino pin 11 som er forbundet med blå ben af RGB LED'en. <br>
-Output compare register 1A = OC1A
+Output compare register 1A = OC1A.
 
 Da jeg bruger Waveform Generation Mode 5 som er Fast PWM 8 bit, har jeg værdierne 0-255 til at justere hver enkelt farve.
 Det vil sige hvis jeg sætter OC1C til 127 så vil dens duty cycle være på 50% og derfor lyse med 50% af max.
@@ -77,7 +77,7 @@ Grøn for korrekt, gul for forkert, rød for alarm. (3 forkerte forsøg)
 
 ## Licens
 
-None
+None.
 
 ## Kontakt
 
