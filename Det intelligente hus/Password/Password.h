@@ -10,7 +10,8 @@
 #define PASSWORD_H_
 
 
-void PasswordChecker(char a);
-void ValidatePassword(char[] password);
+int PasswordChecker(char a);
+int ValidatePassword(char[] password);
+void Appender(char a);
 
 #endif /* PASSWORD_H_ */

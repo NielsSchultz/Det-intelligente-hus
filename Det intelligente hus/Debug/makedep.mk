@@ -4,6 +4,8 @@
 
 Keypad\Keypad.c
 
+LED\LED.c
+
 main.c
 
 Password\Password.c
