@@ -60,17 +60,17 @@ Port B5 sat til output som ligger på Arduino pin 11 som er forbundet med blå b
 Da jeg bruger Waveform Generation Mode 5 som er Fast PWM 8 bit, har jeg værdierne 0-255 til at justere hver enkelt farve.
 Det vil sige hvis jeg sætter OC1C til 127 så vil dens duty cycle være på 50% og derfor lyse med 50% af max.
 
-### Praktisk brug
+## Praktisk brug
 
 Stil dig foran din keypad, se at lyset foran dig bliver tændt.
 Indtast din adgangskode for at komme ind i huset. Læg mærke til hvilken pære der lyser
 Grøn for korrekt, gul for forkert, rød for alarm(3 forkerte forsøg)
 
-### Licens
+## Licens
 
 None
 
-### Kontakt
+## Kontakt
 
 - Email: niels@fakeemail.com
 - Telefon: nope
