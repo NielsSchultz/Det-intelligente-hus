@@ -68,7 +68,7 @@ Da jeg bruger Waveform Generation Mode 5 som er Fast PWM 8 bit, har jeg værdier
 Det vil sige hvis jeg sætter OC1C til 127 så vil dens duty cycle være på 50% og derfor lyse med 50% af max.
 
 ## Praktisk brug
-
+##### Password flowchart
 ![Screenshot](flowchart.png)
 
 Stil dig foran din keypad, se at lyset foran dig bliver tændt.
