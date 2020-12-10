@@ -51,11 +51,18 @@ HIPO Diagram
 1.  git clone https://github.com/NielsSchultz/Det-intelligente-hus.git
 
 ### RGB LED
+![Screenshot](DIHHIPO.png)
 De enkelte ben modtager alle 5V gennem en 330Ω modstand, bortset fra det lange ben som er forbundet til jord.
 
-Port B7 sat til output som ligger på Arduino pin 13 som er forbundet med røde ben af RGB LED'en. OC1C
-Port B6 sat til output som ligger på Arduino pin 12 som er forbundet med grønne ben af RGB LED'en. OC1B
-Port B5 sat til output som ligger på Arduino pin 11 som er forbundet med blå ben af RGB LED'en. OC1A
+Rød:
+Port B7 sat til output som ligger på Arduino pin 13 som er forbundet med røde ben af RGB LED'en. 
+Output compare register 1C = OC1C
+Grøn:
+Port B6 sat til output som ligger på Arduino pin 12 som er forbundet med grønne ben af RGB LED'en. 
+Output compare register 1B = OC1B
+Blå;
+Port B5 sat til output som ligger på Arduino pin 11 som er forbundet med blå ben af RGB LED'en. 
+Output compare register 1A = OC1A
 
 Da jeg bruger Waveform Generation Mode 5 som er Fast PWM 8 bit, har jeg værdierne 0-255 til at justere hver enkelt farve.
 Det vil sige hvis jeg sætter OC1C til 127 så vil dens duty cycle være på 50% og derfor lyse med 50% af max.
