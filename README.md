@@ -76,7 +76,7 @@ Indtast din adgangskode for at komme ind i huset. Læg mærke til hvilken pære 
 Grøn for korrekt, gul for forkert, rød for alarm. (3 forkerte forsøg)
 
 ### Fysisk opsætning
-![Screenshot](test.jpg)
+![Screenshot](test.jpg =100x200)
 
 ## Licens
 
