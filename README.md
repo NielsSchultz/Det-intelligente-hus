@@ -75,6 +75,9 @@ Stil dig foran din keypad, se at lyset foran dig bliver tændt.
 Indtast din adgangskode for at komme ind i huset. Læg mærke til hvilken pære der lyser.
 Grøn for korrekt, gul for forkert, rød for alarm. (3 forkerte forsøg)
 
+### Fysisk opsætning
+![Screenshot](test.jpg)
+
 ## Licens
 
 None.
