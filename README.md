@@ -69,7 +69,7 @@ Det vil sige hvis jeg sætter OC1C til 127 så vil dens duty cycle være på 50%
 
 ## Praktisk brug
 ##### Password flowchart
-![Screenshot](flowchart.png)
+![Screenshot](PasswordFlowchart.png)
 
 Stil dig foran din keypad, se at lyset foran dig bliver tændt.
 Indtast din adgangskode for at komme ind i huset. Læg mærke til hvilken pære der lyser.
